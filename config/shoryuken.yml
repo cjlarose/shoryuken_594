@@ -1,4 +1,4 @@
 concurrency: <%= ENV['WORKER_CONCURRENCY'] || 25 %>
 delay: 0
 queues:
-  - ['athena_lab.fifo', 1]
+  - ['cjlarose_shoryuken_test.fifo', 1]

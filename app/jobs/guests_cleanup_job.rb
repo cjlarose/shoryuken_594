@@ -1,5 +1,5 @@
 class GuestsCleanupJob < ApplicationJob
-  queue_as 'athena_lab.fifo'
+  queue_as 'cjlarose_shoryuken_test.fifo'
 
   def perform(*args)
     p args
