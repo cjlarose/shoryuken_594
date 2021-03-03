@@ -1,5 +1,9 @@
 # shoryuken_594
 
+```bash
+./bin/rails runner 'GuestsCleanupJob.perform_later(1, 2, 3)'
+```
+
 ```BASH
 ~/shoryuken_594 ❯❯❯ shoryuken -C config/shoryuken.yml --rails                                              master ◼
 
